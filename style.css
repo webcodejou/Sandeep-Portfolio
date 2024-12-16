@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #36454F;
+    color: white;
+}
+
+.btn{
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    color: #36454F;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+}
+header{
+    padding: 2rem 4rem;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+
+}
+nav .nav-links{
+    display: flex;
+    list-style: none;
+    
+}
+nav .nav-links li{
+    padding-left: 2rem;
+
+}
+nav .nav-links li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.head .headright h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.head .headright h1 span{
+    font-weight: 200;
+}
+.head .headright p{
+    margin-top: 1rem;
+    max-width: 40rem;
+}
+.head .headright .hire{
+    margin-top: 1rem;
+}
+
+.head .headleft img{
+    max-width: 20rem;
+}
+
+
+@media (max-width > 768px){
+
+}
